@@ -2,7 +2,7 @@ n = int(input())
 first_quarter, second_quarter, third_quarter, fourth_quarter = 0, 0, 0, 0
 
 for _ in range(n):
-    coord = [int(i) for i in input().split()]
+    coord = [float(i) for i in input().split()]
     if coord[0] > 0 and coord[1] > 0:
         first_quarter += 1
     elif coord[0] < 0 and coord[1] > 0:
