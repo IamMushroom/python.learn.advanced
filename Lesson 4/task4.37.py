@@ -42,7 +42,6 @@ else:
             i -= 1
             if i == 0 or matrix[i - 1][j] != '':
                 current_direction = 0
-        
+
 for row in matrix:
     print(*row)
-
