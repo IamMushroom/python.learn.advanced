@@ -12,8 +12,13 @@ for i in range(n):
         row.append('')
     matrix.append(row)
 
-elem = 1
-for _ in range(n):
-    elem = 
-    row = []
-    
+nm = 0
+for q in range(n * m):
+    for i in range(n):
+        for j in range(m):
+            if i + j == q:
+                nm += 1
+                matrix[i][j] = str(nm).ljust(2)
+
+for row in matrix:
+    print(*row)
