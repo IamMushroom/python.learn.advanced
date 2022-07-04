@@ -1,0 +1,2 @@
+Модули random и string 
+=
