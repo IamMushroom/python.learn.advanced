@@ -1,6 +1,5 @@
 # Напишите программу, которая рисует лучи звезды, показанной на рисунке.
 
-from random import randrange
 import turtle
 
 
